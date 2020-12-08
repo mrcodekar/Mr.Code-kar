@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    int ans;
+    if(n%9==0)
+    {
+        ans=9;
+    }
+    else
+    {
+        ans=n%9;
+    }
+    cout<<"Sum of digits of a number "<<n<<" upto single digit is "<<ans;
+	// your code goes here
+	return 0;
+}
